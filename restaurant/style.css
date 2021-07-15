@@ -13,22 +13,23 @@ body{
 /* Navigation */
 nav a {
     display:inline-flex;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
-
-padding: 30px ;
-text-decoration: none;
-color: teal;
-font-size: 20px;
+    padding: 30px ;
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
 
 }
-a:hover{
+ nav a:hover{
 
     transform: scale(1.1);
     transition: 0.3s all;   
     background-color: teal;
     color: rgb(247, 247, 247);
 }
+
+
 
 header{
     
@@ -67,7 +68,6 @@ justify-content: center;
 
  .texte-banniere{
      background: teal;
-     
      padding: 30px;
      position: absolute;
     font-size: 25px;
